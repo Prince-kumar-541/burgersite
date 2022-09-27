@@ -1,0 +1,253 @@
+#background {
+
+    background-image: url("../images/Rectangle.png");
+    
+    background-position: center;
+    
+}
+
+#logo {
+    padding-top: 0px;
+}
+
+.nav_button {
+
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #5f1313;
+}
+#top_bar {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.burger_week {
+    padding-top: 90px;
+    padding-left: 75px;
+
+}
+#burger_text {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+#week {
+    width: 140px;
+}
+
+
+
+#images {
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    left: 120px;
+}    
+
+#burger {
+    position: absolute;
+    z-index: 2;
+    left: 173px;
+}
+
+#fries {
+    position: relative;
+    z-index: 1;
+    left: 40px;
+}
+#price {
+    position: absolute;
+    z-index: 3;
+    border-radius: 10px;
+    top: 312px;
+    left: 100px;
+}
+#drinks {
+    position: absolute;
+    z-index: 0;
+    left: 455px;
+    top: -32px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    #burger {
+        position: absolute;
+        z-index: 2;
+        left: 171px;
+        width: 308px;
+        top: 154px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #images {
+        left: -50px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    
+    #images {
+        left: -50px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    
+    .burger_week, #week {
+        padding-top: 20px;
+        
+    
+    }
+    #images {
+        left: -50px;
+        top: -61px;
+        width: 272px;
+    }
+    #table_padding {
+        padding-bottom: 40px;
+    }
+    
+}
+
+    
+
+
+
+/* burger123 */
+
+.burger1{
+    position: relative;
+}
+.textimage1 {
+    position: absolute;
+    color: white;
+    top: 33px;
+    left:20px;
+    
+}
+#burger2 {
+    position: relative;
+    padding-bottom: 5%;
+}
+#burger3 {
+    position: relative;
+    
+}
+#burger1padding{
+    padding-bottom:5%;
+}
+
+#blog1 {
+    margin-bottom: 100px;
+}
+
+#heading1 {
+    background-color: #ffc045;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.colour {
+    color: #3d2514;
+    padding-top: 10px;
+}
+#colour {
+    padding-top: 30px;
+}
+
+
+/* slider  */
+#blog{
+    margin-bottom: 50px;
+}
+#slider {
+    margin-top: 100px;
+}
+#slider1 {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .img-fluid {
+        padding-top: 100px;
+    }
+    #blog{
+        margin-bottom: 0px;
+    }
+    #image14 {
+        padding-top: 10px;
+    }
+    .colour {
+        padding-top: 0%;
+    }
+    .textimage1 {
+        position: absolute;
+        color: white;
+        top: 110px;
+        left: 20px;
+    }
+    #footer-logo {
+        padding-top: 0px;
+    
+    }
+    .address {
+        padding-bottom: 30px;
+    }
+    
+    
+}
+
+/* table  */
+.form_padding {
+    padding-bottom: 3%;
+}
+#table {
+    padding-top: 0px;
+}
+#reservation {
+    padding-top: 50px;
+}
+#book_table {
+    padding-bottom: 50px;
+}
+#table_image1 {
+    width:60%;
+}
+#table_image2 {
+    width:60%;
+}
+#table_image3 {
+    width:60%;
+}
+
+/* last image  */
+
+#background2 {
+    background-image: url("../images/last\ image.png");
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+#footer_logo {
+    color: white;
+    width: 280px;
+}
+#paragraph {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.social-icon {
+    padding-right: 5px;
+}
+.address {
+    padding-top: 215px;
+}
+
+#burger_11 {
+    filter: drop-shadow(5px 20px 10px rgba(73, 32, 32, 0.333));
+    max-width: 76%;
+    height: auto;
+    
+}
